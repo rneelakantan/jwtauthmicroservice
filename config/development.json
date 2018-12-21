@@ -1,0 +1,18 @@
+{
+  "dbUrl": "mongodb://authservice:authservice@localhost:27017/authmanager",
+  "options": {
+    "useNewUrlParser": true,
+    "useCreateIndex": true,
+    "useFindAndModify": false,
+    "autoIndex": false,
+    "reconnectTries": 999, 
+    "reconnectInterval": 500, 
+    "poolSize": 10,
+    "bufferMaxEntries": 0,
+    "connectTimeoutMS": 10000,
+    "socketTimeoutMS": 45000,
+    "family": 4
+	},
+  "dbPort":8000,
+  "dbHost": "localhost"
+}
